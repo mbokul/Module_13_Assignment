@@ -1,0 +1,30 @@
+#root {
+   max-width: 1280px;
+   margin: 0 auto;
+   padding: 2rem;
+   text-align: center;
+}
+
+.navbar {
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+}
+
+li {
+   list-style-type: none;
+   background-color: black;
+}
+
+a {
+   display: block;
+   text-decoration: none;
+   font-size: 18px;
+   color: white;
+   padding: 5px 10px;
+}
+
+button {
+   padding: 5px 10px;
+   font-size: 20px;
+}
