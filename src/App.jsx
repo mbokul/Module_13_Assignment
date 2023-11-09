@@ -6,6 +6,7 @@ import AboutPage from './pages/AboutPage';
 import ProjectPage from './pages/ProjectPage';
 import BlogPage from './pages/BlogPage';
 import ContactPage from './pages/ContactPage';
+import Counter from './components/Counter';
 import { useRef } from 'react';
 import './App.css';
 
@@ -34,6 +35,8 @@ function App() {
          </BrowserRouter>
 
          <button onClick={change}>Change Background Using (UseRef)</button>
+
+         <Counter />
       </div>
    );
 }
